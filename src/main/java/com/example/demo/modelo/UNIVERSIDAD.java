@@ -1,12 +1,10 @@
-package com.example.demo.controlador;
+package com.example.demo.modelo;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
-@Entity
+import org.springframework.data.annotation.Id;
 
 public class UNIVERSIDAD {
-@Id
+	
+	@Id
 	private int id;
 	private String nombre;
 	private String Descripción;
@@ -89,3 +87,6 @@ public class UNIVERSIDAD {
 	}
 
 }
+
+
+
